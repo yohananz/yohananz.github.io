@@ -1,19 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
 
-    <!-- Bootstrap CSS (Optional enrichment) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuro-Brain Training Game</title>
+
+  <!-- Bootstrap CSS for clean UI -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
-<body class="container text-center bg-light">
-    <h1 class="text-primary my-4">Hello from GitHub Pages!</h1>
-    <p>This is my first enriched website.</p>
-    <button class="btn btn-success my-3" onclick="alert('Hello world from GitHub Pages!')">
-      Click me!
-    </button>
+
+<body class="bg-dark text-white">
+
+<!-- Hero Section -->
+<section class="container text-center py-5">
+  <h1 class="display-4">Neuro-Brain Training Game</h1>
+  <p class="lead">Improve your focus and relaxation using your heartbeat.</p>
+</section>
+
+<!-- Game Explanation -->
+<section class="container py-4">
+  <h2>About the Game</h2>
+  <p>This innovative neuro-training game is uniquely controlled by your heart rate. Stay relaxed, control your heartbeat, and improve your mental clarity.</p>
+</section>
+
+<!-- Video Section -->
+<section class="container py-4 text-center">
+  <h2>Watch it in Action!</h2>
+  <!-- Replace with your own video URL -->
+  <video width="80%" controls>
+    <source src="your-video.mp4" type="video/mp4">
+    Your browser doesn't support videos.
+  </video>
+</section>
+
+<!-- Biofeedback Explanation -->
+<section class="container py-4">
+  <h2>What is Biofeedback?</h2>
+  <p>Biofeedback is a scientifically proven technique that helps you understand and control physiological functions like heartbeat, leading to stress reduction, better concentration, and overall well-being.</p>
+</section>
+
+<!-- Purchase Section -->
+<section class="container py-4 text-center">
+  <h2>Start Training Today!</h2>
+  <a href="https://paypal.me/your-payment-link" class="btn btn-success btn-lg">Buy Now</a>
+</section>
+
+<!-- Contact & Subscription Form -->
+<section class="container py-4">
+  <h2>Get in Touch</h2>
+
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <div class="mb-3">
+      <label>Name</label>
+      <input type="text" class="form-control" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label>Email</label>
+      <input type="email" class="form-control" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label>Message</label>
+      <textarea class="form-control" name="message" required></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit">Send</button>
+  </form>
+
+  <hr>
+
+  <h2>Subscribe for Updates</h2>
+  <form action="https://formspree.io/f/your-subscription-form-id" method="POST">
+    <div class="mb-3">
+      <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+    </div>
+    <button class="btn btn-info" type="submit">Subscribe</button>
+  </form>
+
+</section>
+
+<footer class="text-center py-4">
+  © 2025 Neuro-Brain Training Game
+</footer>
+
 </body>
 </html>
-
